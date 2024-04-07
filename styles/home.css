@@ -1,0 +1,43 @@
+
+/* Home Start */
+
+#hero{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: url("../img/hero4.webp");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+}
+
+#hero h4{
+    padding-bottom: 0.938rem;
+}
+
+#hero h1{
+    color: #088178;
+}
+
+#hero button{
+    background-color: transparent;
+    border: 2px solid #465b52;
+    border-radius: 50px;
+    color: #088178;
+    padding: 0.875rem 5rem;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: 0.2s ease;
+}
+
+#hero button:hover{
+    background-color: #465b52;
+    color: #E3E6F3;
+}
+
+/* Home End */
